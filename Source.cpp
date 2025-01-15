@@ -15,7 +15,7 @@ int main() {
 	}
 	std::cout << sum<<"\n";
 	std::cout << sqrt((sum * 6));
-
+        delete[] dyn_arr;
 
 	return 0;
 }
